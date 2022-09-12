@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit-Bold.woff2') format('woff2'),
+        url('../fonts/Larsseit-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit-Medium.woff2') format('woff2'),
+        url('../fonts/Larsseit-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit.woff2') format('woff2'),
+        url('../fonts/Larsseit.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Black.woff2') format('woff2'),
+        url('../fonts/Lato-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.woff2') format('woff2'),
+        url('../fonts/Lato-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.woff2') format('woff2'),
+        url('../fonts/Lato-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+*, 
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    border:0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    color:inherit;
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+input,
+button,
+textarea{
+    font-family: inherit;
+    font-size: inherit;
+}
+button{
+    cursor: pointer;
+    color:inherit;
+    background-color: inherit;
+}
+body{
+    line-height: 1;
+}
+
+
+
+*{
+    font-family: "Roboto";
+    font-weight: 100;
+    color: black;
+}
+span{
+    font-family: "Larsseit";
+    font-weight: 700;
+}
+.zmist {font-family: "Lato";
+    font-weight: 900;
+}
+a{ font-family: "Lato";
+font-weight: 400;
+}
+li{
+    color: rgb(135, 107, 183);
+}
+h1{
+    font-family: "Lato";
+    font-weight: 900;
+    font-size: 50px;
+    color: rgb(107, 150, 187);
+}
+h2{
+    font-family: "Lato";
+    font-weight: 700;
+    color: rgb(95, 36, 146);
+}
+.header, .footer{font-family: "Roboto";
+    font-weight: 900;
+    color:rgb(88, 50, 4);
+}
+.etimology-text *{
+    color: rgb(85, 72, 170);
+}
+.kind.block-text p{
+    color: rgb(135, 69, 22);
+}
+.capiba span{
+    color:pink;
+}
+#eating, .eating-text p{
+    color:#8FCAB9;
+    font-weight: 900;
+}
+.where-lives > p{
+    color: rgb(223, 179, 0);
+} 
+.where-lives span{
+    color:rgb(255, 157, 0);
+}
+.parag ~ p {
+    color: rgb(255, 157, 0);
+}
+.parag + p{
+    color: rgb(191, 149, 104);
+}
