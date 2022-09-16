@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,400;0,700;1,100&display=swap");
+@font-face {
+    font-family: "CormorantGaramond";
+    src: url("../fonts/CormorantGaramond-Regular.woff2") format("woff2"),
+        url("../fonts/CormorantGaramond-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "CormorantGaramond";
+    src: url("../fonts/CormorantGaramond-Bold.woff2") format("woff2"),
+        url("../fonts/CormorantGaramond-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    color: inherit;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+button {
+    cursor: pointer;
+    color: inherit;
+    background-color: inherit;
+}
+body {
+    line-height: 1;
+}
+body {
+    font-family: "MontserratAlternates", sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+h2,
+h3 {
+    font-family: "CormorantGaramond", serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #6d0d0d;
+    text-shadow: 1px 1px 5px #6c3b3bc5;
+}
+h4 {
+    font-family: "CormorantGaramond", serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #6d0d0d;
+    text-shadow: 1px 1px 5px #6c3b3bc5;
+}
+.main-title {
+    font-family: "CormorantGaramond", serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #750f0f;
+    text-align: center;
+    letter-spacing: 50px;
+    text-shadow: 2px 2px 7px #4c0808;
+}
+header {
+    text-align: center;
+    padding: 15px;
+    font-family: "MontserratAlternates", sans-serif;
+    color: #750f0f;
+    font-size: 24px;
+    text-shadow: 1px 1px 3px #543131;
+    background-color: #c9a9a9af;
+}
+span {
+    text-decoration: line-through;
+}
+.post-scripton {
+    text-align: right;
+    font-style: italic;
+    padding: 10px;
+    text-transform: lowercase;
+    color: #82585f;
+}
+div {
+    text-align: justify;
+    text-indent: 20px;
+}
+.photo-roshen {
+    margin: 5px 270px;
+}
+.container.markets-text ~ p {
+    background-color: #ba8f8f;
+}
+.container.army > p {
+    background-color: #bda0a4;
+}
+.excursions-text {
+    white-space: nowrap;
+}
+.list-content li {
+    color: #8f3a56;
+    text-decoration: underline;
+}
+#jokes {
+    text-shadow: 1px 1px 5px #000000;
+}
+#market-russia {
+    text-decoration: line-through;
+}
+.russia {
+    text-transform: lowercase;
+    word-spacing: 15px;
+}
+span.fabric {
+    font-style: italic;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #571010;
+    text-shadow: 1px 1px 7px #7f7072;
+}
+.content-list {
+    color: #a1064e;
+    text-decoration: overline;
+}
+.corporation,
+.list-content,
+#units {
+    text-align: right;
+    padding: 5px 50px 5px 0px;
+}
+#charity,
+#cancer,
+.institute,
+#army-help,
+.army {
+    text-align: right;
+}
+.picture {
+    margin: 20px 150px;
+}
+.videos {
+    margin: 20px 450px;
+}
+#jokes,
+.offer {
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+}
+.offer {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #5f1e1e;
+}
+.markets-text {
+    text-transform: capitalize;
+}
+.introduction * {
+    text-decoration: underline;
+}
+.army + p {
+    color: #770000;
+}
+.pie {
+    text-decoration: line-through;
+}
+footer {
+    color: #750f0f;
+    font-size: 24px;
+    text-shadow: 1px 1px 3px #543131;
+    background-color: #c9a9a9af;
+    text-align: center;
+    padding: 30px;
+}
