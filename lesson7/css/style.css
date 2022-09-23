@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    color: inherit;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+button {
+    cursor: pointer;
+    color: inherit;
+    background-color: inherit;
+}
+body {
+    line-height: 1;
+}
+
+* {
+    font-family: Lato;
+}
+.header-container,
+.main-container,
+.footer-container {
+    max-width: 810px;
+    margin: 0 auto;
+}
+.header-title {
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 59.8px;
+    margin-bottom: 92px;
+}
+.header-photo {
+    max-width: 100%;
+    border-radius: 4px;
+    margin-bottom: 60px;
+}
+.highlight-text {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 24px;
+}
+.text-block p {
+    margin-bottom: 24px;
+}
+.text-block {
+    margin-bottom: 48px;
+    line-height: 25.6px;
+}
+.quan {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 48px;
+    padding-left: 58px;
+}
+.before-list {
+    margin-bottom: 24px;
+    line-height: 25.6px;
+}
+.list {
+    margin-bottom: 24px;
+    line-height: 25.6px;
+    padding-left: 16px;
+}
+.list li {
+    margin-bottom: 4px;
+}
+.last-text {
+    line-height: 25.6px;
+    margin-bottom: 100px;
+}
+.color {
+    color: #1e212c;
+}
+.circle {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    font-size: 20px;
+    box-shadow: 5px 5px 50px 20px #6f484e;
+    border-radius: 50%;
+    text-align: justify;
+    color: #210606;
+    background-image: url("../img/capi.jpg");
+    margin-bottom: 50px;
+}
+.gradient {
+    border: 2px solid #e8b7b8;
+    color: #210606;
+    margin-bottom: 100px;
+    padding: 20px;
+    background-image: radial-gradient(circle, #eeeeae 23%, #eccca5 57%, #e8b7b8 100%);
+    opacity: 60%;
+    line-height: 30px;
+}
+.peace {
+    text-align: justify;
+    border: 1px solid #07361f;
+    padding: 20px;
+    color: #999994;
+    line-height: 26px;
+    background-image: url("../img/1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-bottom: 100px;
+    background-size: contain;
+}
+.one-line {
+    text-align: justify;
+    margin-bottom: 100px;
+    line-height: 30px;
+    background: url("../img/capibar.jpg") fixed 0 0/150px, #ffe6ccd7;
+    opacity: 60%;
+    color: #ffdd00;
+    box-shadow: 0px 5px 40px 40px #aba372;
+    border-radius: 30px;
+}
+.corner {
+    line-height: 25px;
+    outline: 2px solid #937b3a;
+    padding: 20px 40px;
+    margin-bottom: 100px;
+    text-align: justify;
+    opacity: 85%;
+    color:#000000;
+    text-shadow: 1px 1px 8px #e2e0e0;
+    background: url("../img/corner.jpg") no-repeat 0 0 / auto 100%,
+        url("../img/corner-two.jpg") no-repeat 210px 0 / auto 100%,
+        url("../img/it-capi.jpg") no-repeat 410px 0 / auto 100%,
+        url("../img/capi-ju.jpg") no-repeat bottom right/auto 100%;
+}
