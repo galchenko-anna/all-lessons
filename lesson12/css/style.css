@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+button {
+    cursor: pointer;
+    color: inherit;
+    background-color: inherit;
+}
+body {
+    line-height: 1;
+}
+html,
+body {
+    height: 100%;
+}
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+}
+body{
+    font-family:Pacifico;
+    color: #c8e7d5;
+    font-size: 40px;
+    text-shadow: 5px 5px 5px #384a38;
+    letter-spacing: 3px;
+}
+.header__container{
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0px;
+    background-image: linear-gradient(135deg, #639162 0%, #273627 100%);
+}
+.page__swamp {
+    background: url("../img/BG.jpg") 0 0 / 1400px 788px no-repeat;
+    height: 788px;
+    width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.swamp__song {
+    position: absolute;
+    top: 80px;
+    left: 40px;
+}
+
+.toilet__body {
+    position: absolute;
+    left: 20px;
+    bottom: 50px;
+}
+.toilet__door {
+    position: absolute;
+    left: 277px;
+    bottom: 124px;
+    z-index: 10;
+}
+.toilet:hover .toilet__door {
+    transform: translate(99px, -10px) scaleX(-1) rotate(10deg);
+    transition: all 0.7s ease 0s;
+}
+.toilet__shrek {
+    position: absolute;
+    left: 260px;
+    bottom: 115px;
+    z-index: 1;
+    transform: scale(0.1);
+}
+.toilet:hover .toilet__shrek {
+    transform: scale(1);
+    transition: all 0.4s ease 0s;
+}
+.house__door {
+    position: absolute;
+    left: 700px;
+    bottom: 100px;
+    z-index: 6;
+
+}
+.house__cat {
+    position: absolute;
+    left: 670px;
+    bottom: 90px;
+    z-index: 1;
+    transform: scale(0.1) rotate(-180deg);
+}
+.house__usage{
+    position: absolute;
+    left: 700px;
+    bottom: 100px;
+    width: 90px;
+    height: 160px;
+}
+.house:hover .house__door{
+    transform: translate(-80px, 0px) scaleX(-1);
+    transition: all 0.7s ease 0s;
+}
+    .house:hover .house__cat{
+        transform: rotate(0deg) scale(1);
+        transition: all 1s ease 0s;
+        z-index: 7;
+        transform-origin: -20px 50%;
+    }
+    .house__phrase{
+        position: absolute;
+        display: inline-block;
+        color: #ffffff;
+    }
+.swamp__sign{
+    position: absolute; 
+    right: 300px;
+    bottom: 4px;
+}
+.swamp__sign img{
+    width: 125px;
+}
+.swamp__sign:hover{
+    transform: scale(1.5);
+}
+.fiona img{
+    height:300px;
+}
+.fiona__usage{
+    width: 120px;
+    height: 300px;
+    position: absolute;
+    right: 120px;
+    bottom: 50px;
+}
+.fiona__normal {
+    position: absolute;
+    right: 120px;
+    bottom: 50px;
+    backface-visibility: hidden;
+    transform:rotateY(180deg);
+}
+.fiona__ogre {
+    position: absolute;
+    right: 120px;
+    bottom: 50px;
+    backface-visibility: hidden;
+}
+.fiona:hover .fiona__normal{
+    transform: rotateY(0deg);
+    transition: all 1s ease 0s;
+}
+.fiona:hover .fiona__ogre{
+    transform: rotateY(180deg);
+    transition: all 1s ease 0s;
+}
+.swamp__donkey{
+    position: absolute;
+    right: 350px;
+    top: 260px;
+}
+.swamp__donkey img{
+    height:200px;
+}
+.swamp__donkey:hover{
+    transform: rotate(3600deg);
+    transition: all 5s ease 0s;
+}
+.swamp__dragon{
+    position:absolute;
+    left: -500px;
+    top: 0px;
+}
+
+.swamp:hover .swamp__dragon{
+    transform: translate(3000px, 100px);
+    transition: all 7s ease 0s;
+}
+.footer__container{
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0px;
+    background-image: linear-gradient(135deg, #639162 0%, #273627 100%);
+}
