@@ -425,7 +425,7 @@
 }
 
 .flex-trainer-block--order:hover .flex-trainer-block__item:nth-child(1), .flex-trainer-block--order:hover .flex-trainer-block__title::before {
-    animation: anim-basis 3s linear 0s infinite normal forwards;
+    animation: anim-order 3s linear 0s infinite normal forwards;
 }
 
 .flex-trainer-block--order .flex-trainer-block__item:nth-child(2) {
@@ -444,7 +444,7 @@
     font-size: 14px;
 }
 
-@keyframes anim-basis {
+@keyframes anim-order {
     0% {
         order: 1;
         content: "1st element order: 1";
