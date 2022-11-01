@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson16</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="#"> <img src="img/logo.svg" alt="photo of logo"></a>
+                </div>
+                <nav class="header__navigation navigation-header">
+                    <ul class="navigation-header__list">
+                        <li class="navigation-header__item"><a class="navigation-header__link" href="#">About Us</a>
+                        </li>
+                        <li class="navigation-header__item"><a class="navigation-header__link" href="#">Courses</a></li>
+                        <li class="navigation-header__item"><a class="navigation-header__link" href="#">Events</a></li>
+                        <li class="navigation-header__item"><a class="navigation-header__link" href="#">Blog</a></li>
+                        <li class="navigation-header__item"><a class="navigation-header__link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__user-account accout-user">
+                    <div class="accout-user__button button-consultation">
+                        <a class="button-consultation__item button" href="#"><span>Get consultation</span></a>
+                    </div>
+                    <div class="accout-user__register">
+                        <a href="#" class="account-user__link"><span>Log in / Register</span></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="main__form form-main">
+                <div class="form-main__container">
+                    <div class="form-main__content">
+                        <div class="form-main__image">
+                            <img src="img/illustration.svg" alt="illustration of girl">
+                        </div>
+                        <form class="form-main__inputs form">
+                            <h6 class="form__subtitle">Any questions?</h6>
+                            <h2 class="form__title">Drop us a line</h2>
+                            <div class="form__input-areas">
+                                <div class="form__line">
+                                    <label for="name" class="form__label">First Name*</label>
+                                    <input id="name" required autocomplete="off" tabindex="1" type="text" name="name"
+                                        placeholder="Your first name" class="form__input">
+                                </div>
+                                <div class="form__line">
+                                    <label for="last-name" class="form__label">Last Name*</label>
+                                    <input id="last-name" required autocomplete="off" tabindex="2" type="text"
+                                        name="last-name" placeholder="Your first name" class="form__input">
+                                </div>
+                                <div class="form__line">
+                                    <label for="email" class="form__label">Email*</label>
+                                    <input id="email" required autocomplete="on" tabindex="3" type="email" name="email"
+                                        placeholder="Your working email" class="form__input">
+                                </div>
+                                <div class="form__line">
+                                    <label for="phone" class="form__label">Phone</label>
+                                    <input id="phone" autocomplete="on" tabindex="4" type="tel" name="phone"
+                                        placeholder="Your phone number" class="form__input">
+                                </div>
+                                <div class="form__line form__line--message">
+                                    <label for="message" class="form__label">Message*</label>
+                                    <textarea id="message" required autocomplete="off" tabindex="5" name="message"
+                                        placeholder="Your message" class="form__textarea"></textarea>
+                                </div>
+                                <div class="form__line form__line--radio">
+                                    <label class="form__label form__label--radio">Callback</label>
+                                    <input id="radio-1" value="yes" required tabindex="6" type="radio" name="radio"
+                                        class="form__radio">
+                                    <label for="radio-1" class="form__label form__label--radio-select">Yes</label>
+                                    <input id="radio-2" value="no" tabindex="7" type="radio" name="radio"
+                                        class="form__radio">
+                                    <label for="radio-2" class="form__label form__label--radio-select">No</label>
+                                </div>
+                                <div class="form__line form__line--checkbox">
+                                    <input id="check" required tabindex="8" type="checkbox" name="check"
+                                        class="form__input">
+                                    <label for="check" class="form__label form__label--check">I agree to receive
+                                        communications from
+                                        Createx Online School</label>
+                                </div>
+                                <div class="form__line form__line--button">
+                                    <button id="button" type="submit" value="Send message" name="button"
+                                        class="form__button"><span>Send message</span></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <h2 class="footer__text">Live, practice forms, and work in your free time!</h2>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>

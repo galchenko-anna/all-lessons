@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+li {
+    list-style: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+button {
+    cursor: pointer;
+    color: inherit;
+    background-color: inherit;
+}
+input {
+    width: 100%;
+}
+html,
+body {
+    height: 100%;
+}
+body {
+    line-height: 1;
+}
+body {
+    font-family: Lato;
+    color: #424551;
+    line-height: 1.5;
+}
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+}
+.wrapper > main {
+    flex-grow: 1;
+}
+
+[class*="__container"] {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.head__container {
+    position: relative;
+    z-index: 10;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0px;
+    z-index: 100;
+    background: linear-gradient(55.95deg, #ffdad5 0%, #fddecd 100%);
+}
+
+.navigation-header__list {
+    display: flex;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.navigation-header {
+    flex-grow: 1;
+}
+
+.navigation-header__list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 10px;
+}
+
+.navigation-header__link:hover {
+    text-decoration: underline;
+}
+
+.accout-user {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 36px;
+    flex-wrap: wrap;
+}
+
+.account-user__link,
+.navigation-header__link {
+    font-weight: 700;
+}
+
+.accout-user__register {
+    background: url("../img/account-icon.svg") left no-repeat;
+    padding-left: 24px;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.accout-user__register:hover span {
+    text-decoration: underline;
+}
+
+.main__form {
+    padding-top: 120px;
+    margin-bottom: 90px;
+}
+.form-main__content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.form__subtitle {
+    color: #1e212c;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.form__title {
+    font-size: 46px;
+    color: #1e212c;
+    font-weight: 900;
+    line-height: 1.3;
+    margin-bottom: 40px;
+}
+.form-main__image {
+    flex: 0 1 auto;
+    align-self: center;
+}
+.form-main__inputs {
+    flex: 0 1 705px;
+}
+.form__input-areas {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    margin: 0 -12.5px;
+}
+
+.form__line {
+    display: flex;
+    flex: 0 0 50%;
+    padding: 0 12.5px;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+}
+.form__line--message,
+.form__line--radio {
+    flex: 0 0 100%;
+}
+.form__textarea {
+    border: 1px solid #d7dadd;
+    border-radius: 4px;
+    padding: 13px 16px;
+    resize: vertical;
+    height: 128px;
+}
+.form__line--checkbox {
+    flex-direction: row;
+    gap: 12px;
+}
+#check {
+    flex: 0 0 16px;
+    width: 16px;
+    z-index: -1;
+    /* align-self: flex-start;
+    padding-left: 5px; */
+    position: absolute;
+    top: 5px;
+    left: 12.5px;
+    opacity: 0;
+}
+.form__line--checkbox label {
+    padding-left: 28px;
+}
+.form__line--checkbox label::before {
+    position: absolute;
+    top: 5px;
+    left: 12.5px;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    background: white;
+    border: 1px solid #ff3f3a;
+    transition: all 0.3s ease 0s;
+}
+#check:checked + .form__label--check::before {
+    background: #ff3f3a url(../img/icons/check.svg) center no-repeat;
+}
+.form__input {
+    border: 1px solid #d7dadd;
+    border-radius: 4px;
+    padding: 13px 16px;
+}
+.form__button span {
+    position: relative;
+    z-index: 2;
+}
+.form__button {
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #fff;
+    display: inline-block;
+    padding: 16px 40px;
+    position: relative;
+    background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+}
+.form__button::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease 0s;
+    opacity: 0;
+    border-radius: 4px;
+    background: linear-gradient(55.95deg, #ca3530 0%, #c94d05 100%);
+}
+.form__button:hover::before {
+    opacity: 1;
+}
+.button {
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    line-height: 1.25;
+    color: #fff;
+    display: inline-block;
+    padding: 16px 40px;
+    position: relative;
+    background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+}
+
+.button span {
+    position: relative;
+    z-index: 2;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease 0s;
+    opacity: 0;
+    border-radius: 4px;
+    background: linear-gradient(55.95deg, #ca3530 0%, #c94d05 100%);
+}
+
+.button:hover::before {
+    opacity: 1;
+}
+
+.form__radio {
+    position: absolute;
+    visibility: hidden;
+}
+.form__label--radio-select {
+    padding-left: 28px;
+    position: relative;
+}
+.form__label--radio-select::before {
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: 0px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ff3f3a;
+    border-radius: 50%;
+}
+.form__label--radio-select::after {
+    position: absolute;
+    content: "";
+    top: 8px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+.form__radio:checked + .form__label--radio-select::after {
+    background: #ff3f3a;
+}
+.form__input:focus,
+.form__textarea:focus {
+    outline: 1px solid #ebb8b0;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 20px #ffdad4;
+}
+.footer {
+    background: linear-gradient(55.95deg, rgba(255, 64, 58, 0.2) 0%, rgba(247, 94, 5, 0.2) 100%);
+}
+.footer__text {
+    padding: 20px 0px;
+    text-align: center;
+    font-weight: 700;
+    color: #1e212c;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
